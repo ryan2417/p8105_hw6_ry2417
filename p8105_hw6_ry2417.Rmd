@@ -129,9 +129,9 @@ children_df %>%
   ggplot(aes(x = pred, y = resid)) +
   geom_point() +
   labs(
-    title = "scatterplot of residual and prediction of my model",
-    x = "predicted birth weight (grams)",
-    y = "residual"
+    title = "scatterplot of residual and fitted value of my model",
+    x = " fitted birth weight (grams)",
+    y = "residuals"
   )
 ```
 
